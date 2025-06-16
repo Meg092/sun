@@ -49,7 +49,7 @@ class SunAddCheck extends GetView<PageLogic> {
               return NavigationActionPolicy.ALLOW;
             },
             onReceivedError: (controller,request,error){
-              Get.toNamed("/Apptimeout")?.then((_){
+              Get.toNamed("/load_error")?.then((_){
                 controller.reload();
               });
             },
