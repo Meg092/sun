@@ -12,7 +12,7 @@ class SunNoticView extends GetView<PageLogic> {
       body: Center(
         child: Obx(
           () => controller.feeney.value
-              ? const CircularProgressIndicator(color: Colors.blueAccent)
+              ? const CircularProgressIndicator(color: Colors.blue)
               : buildError(),
         ),
       ),
