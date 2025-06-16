@@ -23,7 +23,7 @@ class SunAddCheck extends GetView<PageLogic> {
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.iqhyklu.value)),
+              url: WebUri.uri(Uri.parse(controller.ycmpek.value)),
               timeoutInterval:10
             ),
             initialSettings: InAppWebViewSettings(

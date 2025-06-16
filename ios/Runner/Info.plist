@@ -37,6 +37,10 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>NSCameraUsageDescription</key>
+    <string>Please access camera for upload the pictures</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Please access the album for upload the pictures</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UISupportedInterfaceOrientations</key>

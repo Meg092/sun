@@ -11,7 +11,7 @@ class SunNoticView extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.keeling.value
+          () => controller.feeney.value
               ? const CircularProgressIndicator(color: Colors.blueAccent)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class SunNoticView extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.brnyj();
+              controller.klpvgxwe();
             },
             icon: const Icon(
               Icons.restart_alt,
